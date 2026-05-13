@@ -370,7 +370,6 @@ Tất cả file config đều là **plain text**, có thể chỉnh sửa bằng
 
 ## 👤 Người dùng
 
-> **SAIGON LASH Store (MariaMCP)** — Amazon Seller  
 > Trình độ kỹ thuật: Cơ bản · Tần suất: 2–3 lần/tuần
 
 <br>
@@ -378,5 +377,5 @@ Tất cả file config đều là **plain text**, có thể chỉnh sửa bằng
 ---
 
 <p align="center">
-  <sub>🛠️ Made with ❤️ by Experience | © 2026 SAIGON LASH / MariaMCP</sub>
+  <sub>🛠️ Made with ❤️ by Experience | © 2026</sub>
 </p>
