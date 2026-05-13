@@ -1,0 +1,47 @@
+# SYNONYMS.txt — Từ điển đồng nghĩa / biến thể từ khóa Amazon
+# Định dạng: từ_gốc = biến_thể_1, biến_thể_2, biến_thể_3, ...
+# Dòng bắt đầu bằng # là comment, bị bỏ qua.
+
+eyelash = lash, eye lash, eyelashes
+extensions = extension, ext
+premade = pre made, promade, pre-made, prefanned, pre fanned
+fans = fan, fanned
+clusters = cluster
+volume = vol, mega volume, full volume
+narrow = thin, slim, pointy, sharp
+lashes = lash, eyelashes, eyelash
+wispy = wispies, wisp
+adhesive = glue, bond, sealer
+kit = set, pack, bundle
+diy = do it yourself, do it your self
+remover = remover, removal, remover gel
+individual = singles, single
+tray = trays, pack
+natural = naturales
+3d = 3 d, 3d volume
+5d = 5 d, 5d volume
+7d = 7 d, 7d volume
+10d = 10 d, 10d volume
+curl = c curl, d curl, cc curl, dc curl
+
+# === Synonym mappings từ crawl US_AMAZON_cerebro_B01NCUJPBF_2026-05-12.xlsx (2026-05-12 - Liver Supplements) ===
+liver = hepatic, gan
+detox = cleanse, detoxification, detoxing
+supplement = supplements, supp, caps, capsules, pills, tablet
+milk thistle = silymarin, silybum, cardo mariano
+turmeric = curcumin, curcuma, tumeric
+beet = beetroot, beets, red beet
+dandelion = taraxacum, diente de leon
+parasite = parasites, parasitic
+cleanse = clean, cleansing, detox
+zeolite = clinoptilolite, zeolites
+lymphatic = lymph, lymphedema, linfa
+colon = colonic, intestinal, bowel
+cholesterol = cholesterin, colesterol
+kidney = renal, riñon, kidneys
+blood pressure = hipertension, hypertension, BP
+immune = immunity, inmunidad, inmune
+fiber = fibre, dietary fiber, roughage
+fotoprotector = spf, sun protection, solar
+antioxidant = antioxidants, anti oxidant, free radical
+anti-inflammatory = anti inflammatory, antiinflamatorio

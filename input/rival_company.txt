@@ -1,0 +1,167 @@
+# rival_company.txt — Tên công ty đối thủ cần tự động loại bỏ
+# Mỗi dòng 1 tên. Dòng bắt đầu bằng # là comment, bị bỏ qua.
+# Từ khóa chứa bất kỳ tên nào trong này sẽ bị LOẠI KHỎI kết quả.
+# Tự động cập nhật từ crawl US_AMAZON_cerebro_B0FNWRDCS6_2026-05-11.xlsx
+
+# === Brands đã có sẵn (giữ lại) ===
+vavalash
+veyes
+fabu
+lilash
+novalash
+ardell
+kiss
+nyx
+essence
+mac
+
+# === Brands mới phát hiện từ crawl (2026-05-11) ===
+eyesy
+tdance
+keyyou
+kisslilly
+kisslily
+lashify
+flutterhabit
+fanxiton
+fadlash
+yawamica
+zanlufly
+goddvenus
+brownvenus
+mavphnee
+jimire
+ucoolme
+nagaraku
+quewell
+diyday
+breeze
+maxcomfi
+winifred
+balash
+beylani
+veleasha
+ailashi
+vava
+# === Brands mới phát hiện từ crawl B0CQYHWLS6 (2026-05-12 - Lash Cluster Kit) ===
+manga    # manga lash clusters - brand rất mạnh, SV 100k+
+amzgirl    # amzgirl lash clusters kit
+alice    # alice lash cluster - brand clusters
+velour    # velour lash clusters kit
+yaiseiko    # yaiseiko lash clusters
+pawotence    # pawotence lash extension kit
+okaylove    # okaylove lash clusters
+flaunt    # flaunt eyelash clusters
+youluck    # youluck diy lash clusters
+airycute    # airycute lash clusters
+yiduo    # yiduo lash kit - ASIN B0FYFBNX48
+heywink    # heywink lash clusters kit - ASIN B0FL2FHHLM
+azenlo    # azenlo lash extensions - ASIN B0DDTWHCXM
+sweed    # sweed lash serum
+phkerata    # phkerata natural lash clusters
+millybest    # millybest 4 style lash clusters kit
+b&q    # b&qaugen b&q kit de pestañas
+sanishi    # sanishi lash clusters
+smartify    # smartify lash clusters
+smartify
+millybest
+sanishi
+yiduo
+pawotence
+b&q
+youluck
+
+# === Brands mới phát hiện từ crawl B0FGPYVN56 (2026-05-12 - Lash Tweezers) ===
+tweezerman    # tweezerman eyelash curler - thương hiệu tweezers nổi tiếng
+revlon    # revlon tweezers for women - mỹ phẩm
+anastasia    # anastasia beverly hills precision tweezers
+tweezia    # tweezia tweezer set
+rubis    # rubis switzerland tweezers
+gmi    # gmi lash tweezers
+vetus    # vetus lash tweezers
+modelgrip    # modelgrip pro set tweezers
+livbay    # livbay lash tweezers
+sivote    # sivote lash tweezers
+pefei    # pefei tweezers set
+towot    # towot precision tweezers
+gtex    # gtex lash tweezers
+lashoraa    # LASHORAA - ASIN B0G1B38JBV - Lash Tweezers Set
+modelgrip
+tweezerman
+revlon
+
+# === Brands mới phát hiện từ crawl US_AMAZON_cerebro_B01NCUJPBF_2026-05-12.xlsx (2026-05-12 - Liver Supplements) ===
+akka    # akka superbiotics - liver detox, probiotic supplements
+auric    # auric - herbal supplements, liver detox
+beravia    # beravia - organic beet root capsules, herbal
+biocol    # biocol labs - liver detox, supplement lab
+bioroot    # bioroot labs - turmeric, herbal supplement lab
+bronson    # bronson vitamins - milk thistle, supplements
+carlyle    # carlyle - beet root, milk thistle supplements
+ciyive    # ciyive - liver detox supplements
+cleantra    # cleantra - lymphatic drainage, body cleanse
+conversol    # conversol - thyroid liver supplements, herbal
+designs for health    # designs for health - glutathione, professional supplements
+doctors best    # doctors best - glucosamine, milk thistle, supplements
+dose    # dose wellness - dose for your liver shots, liver health supplements
+dosedaily    # dosedaily - daily supplement, liver health
+dr crown    # dr crown - liver support, herbal supplements
+enerra    # enerra - milk thistle, liver detox supplements
+epativan    # epativan - liver supplement dạng bột tiếng Tây Ban Nha
+essentia    # essentia - liver health supplements
+gaia    # gaia herbs - milk thistle, herbal supplements
+garden of life    # garden of life - probiotics, herbal supplements
+global healing    # global healing - liver cleanse, herbal detox
+healyn    # healyn - milk thistle, herbal supplements
+hepagard    # hepagard - liver cleanse detox & repair supplements
+hepguard    # hepguard - liver support supplement
+himalaya    # himalaya wellness - liv 52, herbal liver support
+horbaach    # horbaach - beet root, herbal supplements
+jarrow    # jarrow formulas - milk thistle, nac, supplements
+julytiger    # julytiger - liver detox, milk thistle supplements
+kirkland    # kirkland signature - joint health, supplements (Costco)
+life extension    # life extension - milk thistle, research-grade supplements
+lipochol    # lipochol - liver supplement tiếng Tây Ban Nha
+livermd    # livermd - liver support supplements chuyên nghiệp
+livingood    # livingood - supplements, whole food nutrition
+lulutox    # lulutox - detox tea, weight loss supplements
+mary ruth    # mary ruth - chlorophyll, herbal supplements organic
+microingredients    # microingredients - liver detox, herbal supplements
+natures craft    # natures craft - liver support, herbal supplements
+natures way    # natures way - herbal supplements, milk thistle
+nutralis    # nutralis - parasite cleanse, herbal supplements
+nutrapure    # nutrapure - liver detox, milk thistle supplements
+nutricost    # nutricost - nac, milk thistle, supplements giá rẻ
+nutrivytal    # nutrivytal - milk thistle liver detox & colon cleanse
+oregons wild harvest    # oregons wild harvest - milk thistle, organic herbs
+organifi    # organifi - liver reset, green juice supplements
+osteomove    # osteomove - extra strength joint care supplements
+ovalife    # ovalife - liver detox, herbal supplements
+oxyenergy    # oxyenergy - milk thistle, liver detox & colon cleanse
+paratoxil    # paratoxil - herbal parasite cleanse supplements
+piping rock    # piping rock - supplements giá rẻ, trực tuyến
+primemd    # primemd - liver cleanse, clinical supplements
+purehealth    # purehealth - liver health formula supplements
+purella    # purella - liver support supplement
+pureveen    # pureveen - milk thistle, herbal supplements
+renew life    # renew life - cleanse, detox supplements
+rosabella    # rosabella - beetroot capsules, herbal supplements
+santo remedio    # santo remedio - dr juan productos naturales
+sculptique    # sculptique - lymphatic drainage, body sculpting
+seeking health    # seeking health - glutathione, probiotics supplements
+serene herbs    # serene herbs - soursop bitters, herbal supplements
+solaray    # solaray - beet root, herbal supplements chất lượng
+spring valley    # spring valley - turmeric, supplements (Walmart brand)
+stonehenge    # stonehenge health - dynamic joint, health supplements
+swanson    # swanson vitamins - milk thistle, herbs, supplements
+thorne    # thorne supplements - vitamin b, curcumin, milk thistle
+traditional medicinals    # traditional medicinals - dandelion root tea, herbal tea
+uvora    # uvora - milk thistle detox, herbal supplements
+youtheory    # youtheory - turmeric, collagen supplements
+zazzee    # zazzee - milk thistle, turmeric supplements
+zesty paws    # zesty paws - liver support for pets
+zhou    # zhou - milk thistle, herbal supplements
+livermd
+hepagard
+dose
+thorne

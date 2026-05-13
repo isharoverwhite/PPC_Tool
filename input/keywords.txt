@@ -1,0 +1,210 @@
+# Negative Keywords — mỗi dòng 1 từ khóa cần loại bỏ
+# Các từ khóa chứa những từ này sẽ bị tự động lọc khỏi kết quả
+makeup
+lipstick
+lip gloss
+foundation
+concealer
+blush
+highlighter
+eyeshadow
+eyeliner
+mascara
+brow
+cosmetics
+skincare
+moisturizer
+serum
+face wash
+toner
+sunscreen
+anti aging
+wrinkle cream
+facial
+nail polish
+nail art
+manicure
+pedicure
+shampoo
+conditioner
+hair oil
+hair mask
+hair serum
+hair growth
+hair dye
+hair color
+hair spray
+gel
+mousse
+eyelash
+lash
+eyelashes
+lashes
+lash extensions
+lash clusters
+false lashes
+eyebrow
+lash glue
+lash adhesive
+lash lift
+lash serum
+dress
+shirt
+jeans
+pants
+jacket
+coat
+sweater
+hoodie
+shoes
+sneakers
+boots
+sandal
+socks
+hat
+cap
+bag
+purse
+wallet
+watch
+jewelry
+necklace
+ring
+bracelet
+earrings
+furniture
+sofa
+table
+chair
+lamp
+curtain
+cushion
+towel
+blanket
+pillow
+bed
+mattress
+kitchen
+cookware
+utensil
+plate
+bowl
+cup
+glass
+container
+storage
+phone
+iphone
+samsung
+charger
+cable
+earphone
+headphone
+bluetooth
+speaker
+laptop
+computer
+keyboard
+mouse
+monitor
+tv
+television
+tablet
+ipad
+case
+screen protector
+toy
+toys
+game
+board game
+video game
+lego
+doll
+stuffed animal
+puzzle
+coloring book
+sports
+gym
+yoga mat
+dumbbell
+jump rope
+bicycle
+camping
+hiking
+outdoor
+fishing
+book
+books
+notebook
+pen
+pencil
+stapler
+paper
+office
+school supplies
+car
+automotive
+tire
+oil change
+car accessories
+motorcycle
+bike parts
+pet
+dog
+cat
+pet food
+pet toy
+pet bed
+pet supplies
+dog food
+cat food
+cat litter
+coffee
+tea bag
+green tea
+snack
+candy
+chocolate
+cookie
+cake
+protein bar
+energy drink
+soda
+juice box
+baby
+diaper
+wipes
+baby food
+stroller
+crib
+baby toys
+kids
+children
+garden
+plant
+flower
+seed
+pot
+soil
+fertilizer
+outdoor decor
+maquillaje
+sombras
+labial
+base de maquillaje
+correctores
+rubor
+iluminador
+ojos
+cejas
+pestañas
+uñas
+esmalte
+cuidado de la piel
+crema
+loción
+tónico
+limpiador facial
+protector solar
+dose
+milk

@@ -1,0 +1,152 @@
+# brands.txt — Danh sách brand đối thủ (mỗi dòng 1 brand)
+# Dòng bắt đầu bằng # là comment, bị bỏ qua
+# Tự động cập nhật từ crawl US_AMAZON_cerebro_B0FNWRDCS6_2026-05-11.xlsx
+
+# === Brands đã có sẵn ===
+vavalash
+veyes
+fabu
+lilash
+novalash
+ardell
+kiss
+nyx
+essence
+mac
+
+# === Brands mới phát hiện từ crawl ===
+eyesy
+tdance
+keyyou
+kisslilly
+kisslily
+lashify
+flutterhabit
+fanxiton
+fadlash
+yawamica
+zanlufly
+goddvenus
+brownvenus
+mavphnee
+jimire
+ucoolme
+nagaraku
+quewell
+diyday
+breeze
+maxcomfi
+winifred
+balash
+beylani
+veleasha
+ailashi
+vava
+# === Brands mới phát hiện từ crawl B0CQYHWLS6 (2026-05-12 - Lash Cluster Kit) ===
+manga
+amzgirl
+alice
+velour
+yaiseiko
+pawotence
+okaylove
+flaunt
+youluck
+airycute
+yiduo
+heywink
+azenlo
+sweed
+phkerata
+millybest
+b&q
+sanishi
+smartify
+
+# === Brands mới phát hiện từ crawl B0FGPYVN56 (2026-05-12) ===
+tweezerman
+revlon
+anastasia
+tweezia
+rubis
+gmi
+vetus
+modelgrip
+livbay
+sivote
+pefei
+towot
+gtex
+lashoraa
+
+# === Brands mới phát hiện từ crawl US_AMAZON_cerebro_B01NCUJPBF_2026-05-12.xlsx (2026-05-12 - Liver Supplements) ===
+akka
+auric
+beravia
+biocol
+bioroot
+bronson
+carlyle
+ciyive
+cleantra
+conversol
+designs for health
+doctors best
+dose
+dosedaily
+dr crown
+enerra
+epativan
+essentia
+gaia
+garden of life
+global healing
+healyn
+hepagard
+hepguard
+himalaya
+horbaach
+jarrow
+julytiger
+kirkland
+life extension
+lipochol
+livermd
+livingood
+lulutox
+mary ruth
+microingredients
+natures craft
+natures way
+nutralis
+nutrapure
+nutricost
+nutrivytal
+oregons wild harvest
+organifi
+osteomove
+ovalife
+oxyenergy
+paratoxil
+piping rock
+primemd
+purehealth
+purella
+pureveen
+renew life
+rosabella
+santo remedio
+sculptique
+seeking health
+serene herbs
+solaray
+spring valley
+stonehenge
+swanson
+thorne
+traditional medicinals
+uvora
+youtheory
+zazzee
+zesty paws
+zhou

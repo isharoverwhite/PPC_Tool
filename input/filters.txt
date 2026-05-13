@@ -1,0 +1,39 @@
+# filters.txt — Lịch sử filter patterns đã dùng
+# Mỗi dòng 1 pattern. Tự động thêm khi user chọn filter và áp dụng.
+# Dòng bắt đầu bằng # là comment, bị bỏ qua.
+# Ví dụ:
+#   premade|fans
+#   narrow|premade fans
+#   lash clusters|kit
+
+# === Filter patterns cho Dose for Your Liver (B01NCUJPBF) ===
+# Danh mục: Liver Support / Detox Supplements
+# Nguồn: US_AMAZON_cerebro_B01NCUJPBF_2026-05-12.xlsx
+dose|for your liver
+liver|support|supplement
+liver|detox|cleanse
+milk thistle|supplement
+liver|cleanse|detox|repair
+beet root|capsules|powder
+dandelion root|tea|supplement
+turmeric|curcumin|supplement
+liver|detox|capsules
+liver|health|supplement
+detox|cleanse|weight loss
+parasite|cleanse|detox
+lymphatic|drainage|supplement
+kidney|cleanse|detox|repair
+cholesterol|lowering|supplements
+cod liver|oil|capsules
+beef liver|capsules|organ
+milk thistle|liver|detox
+zeolite|heavy metal|detox
+fiber|supplement|digestive
+gut|health|digestive|enzyme
+blood|pressure|support
+immune|support|supplement
+nmn|supplement|pure|organic
+beet root|gummies
+dose|liver|cholesterol
+dose liver|support supplement
+support supplement

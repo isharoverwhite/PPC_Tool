@@ -1,0 +1,18 @@
+# product_name.txt — Lịch sử tên sản phẩm đã nhập
+# Mỗi dòng 1 tên sản phẩm. Tự động thêm khi user nhập tên SP và bấm "Phân tích & Gợi ý".
+# Dòng bắt đầu bằng # là comment, bị bỏ qua.
+# Ví dụ:
+#   Super Narrow Premade Fans 3D 5D C Curl Lash Extensions
+#   DIY Lash Cluster Kit 60D+80D 240 PCS
+
+# === Sản phẩm 1: Dose for Your Liver (B01NCUJPBF) ===
+# Nguồn: US_AMAZON_cerebro_B01NCUJPBF_2026-05-12.xlsx
+# Danh mục: Liver Support / Detox Supplements
+Dose for Your Liver
+Dose for Your Liver Shot
+Dose Liver Support Supplement
+Dose Daily Liver Detox
+Dose for Your Liver Drink
+Dose Liver Cleanse Shot
+Dose Wellness Liver Shot
+Dose Liver Health Supplement
