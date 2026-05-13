@@ -87,7 +87,7 @@
 - **Rival Companies** — tự động loại bỏ từ khóa đối thủ
 - Fill Bid thiếu bằng trung bình
 - Highlight brand đối thủ (vàng `#FFF2CC`)
-- Xuất Excel 20 cột chuẩn template AGlobal
+- Xuất Excel 20 cột chuẩn template PPC
 - Công thức Excel liên kết — chỉ cần điền Price & Fees
 
   </td>
@@ -206,7 +206,7 @@ PPC_Tool/
 
 ## 📊 File Output
 
-### 20 cột chuẩn template AGlobal Keyword Research:
+### 20 cột chuẩn template PPC Keyword Research:
 
 <table>
 <tr>
@@ -244,7 +244,7 @@ PPC_Tool/
 <tr>
   <td width="25px" bgcolor="#E69138"></td>
   <td><code>#E69138</code></td>
-  <td>Header row — nền cam (theo format file mẫu AGlobal)</td>
+  <td>Header row — nền cam (theo format file mẫu)</td>
 </tr>
 <tr>
   <td width="25px" bgcolor="#FFF2CC"></td>
