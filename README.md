@@ -25,20 +25,6 @@
 
 <br>
 
----
-
-## 💬 User Story — Tại sao công cụ này ra đời?
-
-> *"Mỗi tuần tôi phải chạy 2–3 chiến dịch quảng cáo PPC mới trên Amazon. Mỗi lần như vậy, tôi lại phải ngồi hàng giờ trước màn hình: mở file Excel 1.000+ dòng từ khóa xuất từ Helium 10 Cerebro, loay hoay filter thử từng từ một, rồi copy/paste thủ công vào template quảng cáo. Việc này lặp đi lặp lại, tốn rất nhiều thời gian và dễ gây sai sót — nhất là khi có quá nhiều cột và công thức Excel liên kết với nhau."*
->
-> *"Một lần, sau khi mất gần 30 phút chỉ để lọc được 46 từ khóa cho một sản phẩm, tôi tự hỏi: tại sao mình không tự động hóa việc này? Đây không phải là công việc đòi hỏi sự sáng tạo — nó đơn thuần là thao tác lặp lại mà máy tính có thể làm nhanh gấp 20 lần con người."*
->
-> *"Tôi bắt tay vào viết công cụ này. Ban đầu chỉ là một script Python nhỏ chạy trên terminal, dần dần phát triển thành một ứng dụng desktop hoàn chỉnh với giao diện trực quan, có thể phân tích tên sản phẩm, tự động gợi ý bộ lọc tối ưu, và xuất ra file Excel chuẩn template chỉ trong một nốt nhạc."*
-
-**Bài học rút ra:** Trong công việc, sự nhanh nhạy không chỉ nằm ở việc làm nhanh hơn — mà là nhận ra đâu là thứ nên được tự động hóa. Thay vì dành 30 phút mỗi lần cho một tác vụ lặp lại, dành vài giờ để xây dựng công cụ giúp tiết kiệm hàng trăm giờ về sau. Đó là sự đầu tư thông minh.
-
-<br>
-
 ## 🎯 Vấn đề & Giải pháp
 
 <table>
