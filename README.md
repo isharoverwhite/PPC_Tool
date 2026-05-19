@@ -98,41 +98,55 @@
 
 ## 🖥️ Giao diện
 
+## 🖥️ Giao diện
+
 <p align="center">
   <em>(Screenshot ứng dụng)</em>
 </p>
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  🔍 Auto PCC Keywords — made by Experience                      ║
-╠══════════════════════════════════════════════════════════════════╣
-║  BƯỚC 1: LỌC TỪ KHÓA — Phân tích & Gợi ý Filter                ║
-║  ┌────────────────────────────────────────────────────────────┐ ║
-║  │ 📂 File Cerebro: [___________] [Browse]                    │ ║
-║  │ 🏷️ Tên SP:      [___________] [🔍 Phân tích & Gợi ý]     │ ║
-║  │ ───────────────────────────────────────────────────────── │ ║
-║  │ #  │ Filter Pattern          │ Kết quả    │ Đánh giá      │ ║
-║  │ 1  │ premade fans|curl lash   │ 46 (4.2%)  │ ✅ Lý tưởng   │ ║
-║  │ 2  │ premade|fans            │ 44 (4.0%)  │ ✅ Lý tưởng   │ ║
-║  │ 3  │ narrow|premade fans     │ 38 (3.4%)  │ ✅ Lý tưởng   │ ║
-║  │ ───────────────────────────────────────────────────────── │ ║
-║  │ 📜 Lịch sử: [___________]  Filter: [___________]          │ ║
-║  │ Kết hợp: [___] [+]  Tự nhập: [___________]  [✅ Áp dụng] │ ║
-║  └────────────────────────────────────────────────────────────┘ ║
-║                                                                  ║
-║  BƯỚC 2: LỌC DỮ LIỆU & XUẤT FILE                                ║
-║  ┌────────────────────────────────────────────────────────────┐ ║
-║  │ 📊 Kết quả lọc: 46 từ khóa / 1,104 tổng (4.2%)            │ ║
-║  │ 💰 Price ($): [___]  📦 Amazon Fee ($): [___]              │ ║
-║  │ ───────────────────────────────────────────────────────── │ ║
-║  │ Keyword Phrase      │ SV   │ Bid   │ ... │ Profit         │ ║
-║  │ super narrow premade│ 8,500│ $0.45 │ ... │ $124.50        │ ║
-║  │ 5d premade fans     │ 5,200│ $0.38 │ ... │ $89.20         │ ║
-║  │ ───────────────────────────────────────────────────────── │ ║
-║  │ ⚠️ Negative Keywords: [___________] [Thêm] [✏️ Sửa] [✕ Xóa]│ ║
-║  │ [💰 Fill Bid thiếu]                    [📤 Xuất file Excel]│ ║
-║  └────────────────────────────────────────────────────────────┘ ║
-╚══════════════════════════════════════════════════════════════════╝
+```mermaid
+block-beta
+    columns 1
+    title["🔍 Auto PCC Keywords — made by Experience"]
+
+    block:step1["BƯỚC 1: LỌC TỪ KHÓA — Phân tích & Gợi ý Filter"]
+        columns 4
+        file["📂 File Cerebro"]
+        browse["Browse"]
+        product["🏷️ Tên SP"]
+        analyze["🔍 Phân tích"]
+    end
+
+    block:suggestions["Danh sách gợi ý filter"]
+        columns 4
+        s1["1. premade|fans → 46 ✅"]
+        s2["2. narrow|premade → 38 ✅"]
+        s3["3. volume|fans → 33 🟡"]
+        s4["4. wispy|cluster → 28 🟡"]
+    end
+
+    block:controls["Điều khiển"]
+        columns 6
+        history["📜 Lịch sử filter"]
+        selected["Filter đã chọn"]
+        combo["Kết hợp 1+3"]
+        custom["Tự nhập"]
+        apply["✅ Áp dụng"]
+    end
+
+    block:step2["BƯỚC 2: LỌC DỮ LIỆU & XUẤT FILE"]
+        columns 3
+        price["💰 Price"]
+        fee["📦 Amazon Fee"]
+        preview["📊 Preview 20 cột"]
+    end
+    
+    block:actions["Thao tác"]
+        columns 4
+        negative["⚠️ Negative Keywords"]
+        fillbid["💰 Fill Bid"]
+        export["📤 Xuất Excel"]
+    end
 ```
 
 <br>
@@ -178,28 +192,34 @@ python3 setup.py py2app
 
 ## 🗂️ Cấu trúc project
 
-```
-PPC_Tool/
-├── main.py                  ← Entry point: python3 main.py
-├── setup.py                 ← py2app build script
-├── app/
-│   ├── ui.py                ← Giao diện tkinter (1,100+ dòng)
-│   ├── engine.py            ← FilterEngine: load, filter, negative keywords
-│   ├── synonym_engine.py    ← SynonymEngine: phân tích tên SP → gợi ý filter
-│   ├── excel_writer.py      ← Xuất Excel 20 cột có style + công thức
-│   └── constants.py         ← Cấu hình: màu sắc, cột, thresholds
-├── input/
-│   ├── SYNONYMS.txt         ← Từ điển đồng nghĩa
-│   ├── STOP_WORDS.txt       ← Từ dừng (stop words)
-│   ├── brands.txt           ← Danh sách brand đối thủ
-│   ├── keywords.txt         ← Negative keywords (tự động lọc)
-│   ├── filters.txt          ← Lịch sử filter (tự động lưu)
-│   ├── rival_company.txt    ← Công ty đối thủ cần loại bỏ
-│   └── product_name.txt     ← Lịch sử tên sản phẩm
-├── output/                  ← File Excel xuất ra
-├── PLAN.md                  ← Kế hoạch phát triển
-├── PRD.md                   ← Product Requirements Document
-└── README.md                ← File này
+```mermaid
+graph TD
+    main[main.py<br/>Entry point]
+    setup[setup.py<br/>py2app build]
+
+    main --> app
+
+    subgraph app["app/"]
+        ui[ui.py<br/>GUI tkinter]
+        engine[engine.py<br/>FilterEngine]
+        synonym[synonym_engine.py<br/>SynonymEngine]
+        writer[excel_writer.py<br/>Xuất Excel]
+        const[constants.py<br/>Cấu hình]
+    end
+
+    subgraph input["input/"]
+        syn_txt[SYNONYMS.txt]
+        stop_txt[STOP_WORDS.txt]
+        brands_txt[brands.txt]
+        kw_txt[keywords.txt]
+        filt_txt[filters.txt]
+        rival_txt[rival_company.txt]
+        prod_txt[product_name.txt]
+    end
+
+    output[output/]
+    main --> input
+    main --> output
 ```
 
 <br>
@@ -298,30 +318,21 @@ PPC_Tool/
 
 ## 🚀 Quy trình sử dụng
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  ① Tải file Cerebro từ Helium 10                             │
-│     Products → Cerebro → Export Data → .xlsx                │
-│                                                              │
-│  ② Mở PPC Keyword Filter.app                                 │
-│     → 📂 Browse → chọn file .xlsx vừa tải                   │
-│                                                              │
-│  ③ Nhập tên sản phẩm → 🔍 Phân tích & Gợi ý                 │
-│     → Chọn filter từ danh sách gợi ý (✅ Lý tưởng)          │
-│     → ✅ Áp dụng filter                                      │
-│                                                              │
-│  ④ Nhập Price ($) và Amazon Fee ($) (tuỳ chọn)              │
-│     → Xem preview 20 cột trên UI                             │
-│     → Thêm negative keywords nếu cần                         │
-│     → Xoá dòng thủ công nếu muốn (Delete / Undo ⌘Z)        │
-│                                                              │
-│  ⑤ 📤 Xuất file Excel → Chọn nơi lưu                        │
-│     → 20 cột + công thức + Total + Campaign sections        │
-│     → Paste vào template quảng cáo PPC                      │
-│                                                              │
-│  ⑥ Điền số liệu thực tế từ Seller Central                   │
-│     → Template tự tính Profit / ACOS                        │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    A["① Tải file Cerebro<br/>Helium 10 → Export .xlsx"] --> B
+    B["② Mở app<br/>📂 Browse → Chọn file"] --> C
+    C["③ Phân tích<br/>Nhập tên SP → 🔍 Gợi ý filter<br/>Chọn filter ✅ Lý tưởng"] --> D
+    D["④ Kiểm tra & Tinh chỉnh<br/>💰 Price & Fee | Preview 20 cột<br/>⚠️ Negative keywords | 🗑 Xoá dòng"] --> E
+    E["⑤ 📤 Xuất file Excel<br/>20 cột + Công thức + Total + Campaigns"] --> F
+    F["⑥ Điền số liệu thực tế<br/>Seller Central → Template tự tính Profit"]
+
+    style A fill:#EBF3FB,stroke:#1F4E79
+    style B fill:#EBF3FB,stroke:#1F4E79
+    style C fill:#FFF2CC,stroke:#E69138
+    style D fill:#EBF3FB,stroke:#1F4E79
+    style E fill:#E69138,stroke:#1F4E79,color:#fff
+    style F fill:#2E7D32,stroke:#1F4E79,color:#fff
 ```
 
 <br>
